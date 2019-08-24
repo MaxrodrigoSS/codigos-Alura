@@ -13,6 +13,7 @@
 
 <body>
     <main>
+     <div>
         <h1> Sobre mim </h1>
         <p> Moro em São Paulo mas atendo clientes do mundo todo. Sou conhecido por fazer produtos de qualidade, durabilidade e que agregam valor para meus clientes.</p>
         <p>Trabalho usando a web como plataforma, ou seja, respiro HTML5, CSS3 e JavaScript (ou melhor: ECMASCript). Crio sites para todos, seguindo as principais diretivas de acessibilidade, responsividade e web semântica, sem descuidar da qualidade de
@@ -42,6 +43,7 @@
         <h2>Comunidade</h2>
 
         <p>Procuro repassar meu conhecimento para a comunidade. Para isso, já dei diversas palestras e mantenho <a href="BLOG.html">um blog</a>.</p>
+      </div>
     </main>
     <img src="imgs/eu.jpg" alt="Foto de jooao da silva">
     <nav>
@@ -134,26 +136,43 @@
 ############################BLOG
 
 ############################BIO CSS
+body {
+    background-color: #f2fffc;
+    font-family: "Crinsom text", serif;
+    font-size: 20px
+    line-height: 1.5;
+}
 
 main h1 {
     background-color: #851944;
     color: #FFF;
     text-align: center;
-    font-family: "Arial";
+    font-family: "Open sans codensed", sans-serif;
+    font-size: 60px;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 10px solid black;
 }
 
 h2 {
-    font-family: "Arial";
+    font-size: 40px;
+    font-family: "Open sans codensed", sans-serif;
 }
 
 p {
     text-align: justify;
-    font-family: "Times New Roman";
 }
 
-footer {
-    background-color: black;
+blockquote {
+    background-color: #d3ddda;
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    width: 250px
     color: white
+}
+main div {
+    width: 720px;
+    margin: auto;
 }
 
 ###########################BIO CSS
