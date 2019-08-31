@@ -1,66 +1,89 @@
 ##########################BIO
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="icon" href="imgs/favicon.png">
-    <link rel="stylesheet" href="BioCSS.css">
+    <title>Biografia - João da Silva</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
 </head>
 
 <body>
     <main>
-     <div>
-        <h1> Sobre mim </h1>
-        <p> Moro em São Paulo mas atendo clientes do mundo todo. Sou conhecido por fazer produtos de qualidade, durabilidade e que agregam valor para meus clientes.</p>
-        <p>Trabalho usando a web como plataforma, ou seja, respiro HTML5, CSS3 e JavaScript (ou melhor: ECMASCript). Crio sites para todos, seguindo as principais diretivas de acessibilidade, responsividade e web semântica, sem descuidar da qualidade de
-            código.</p>
+        <h1 class="titulo-principal">SOBRE MIN</h1>
 
-        <h2>Como trabalho</h2>
+        <div class="container">
+            <p>Moro em São Paulo mas atendo clientes do mundo todo. Sou conhecido por fazer produtos de <em>qualidade</em>, <em>durabilidade</em> e que <em>agregam valor</em> para meus clientes.</p>
 
-        <blockquote>
-            <p>João é o melhor desenvolvedor front-end com quem já trabalhei. Muito eficiente e muito capaz. Recomendo sem dúvidas!</p>
-            <cite>José Souza, Fiat</cite>
-        </blockquote>
+            <p>Trabalho usando a web como plataforma, ou seja, respiro HTML5, CSS3 e JavaScript (ou melhor: ECMASCript). Crio sites para todos, seguindo as principais diretivas de acessibilidade, responsividade e web semântica, sem descuidar da qualidade
+                de código.</p>
 
-        <p>Satisfazer meus clientes é prioridade. Para isso, garanto um processo de desenvolvimento altamente interativo, baseado em feedback contínuo. Não trabalho com escopo fechado: o cliente é que decide quando o produto está pronto.</p>
-        <p> Também não trabalho com prazos fechados: qualidade é importante demais para ser sacrificada.</p>
+            <h2 class="subtitulo-texto">Como trabalho</h2>
 
-        <h2>Experiência</h2>
+            <blockquote class="citacao-bio">
+                <p>João é o melhor desenvolvedor front-end com quem já trabalhei. Muito eficiente e muito capaz. Recomendo sem dúvidas!</p>
+                <cite>José Souza, Fiat</cite>
+            </blockquote>
 
-        <blockquote>
-            <p>João domina as tecnologias como ninguém. Eu apresentava um problema, ele tinha na ponta da língua a solução mais adequada com as tecnologias mais recentes.</p>
-            <cite>Manoel Santos, Petrobrás</cite>
-        </blockquote>
+            <p>Satisfazer meus clientes é prioridade. Para isso, garanto um processo de desenvolvimento altamente interativo, baseado em feedback contínuo. <strong>Não trabalho com escopo fechado</strong>: o cliente é que decide quando o produto está pronto.</p>
 
-        <p>Já desenvolvi projetos para grandes empresas como <a href="https://www.bmw.com.br/pt/index.html">BMW</a> , <a href="https://www.uol.com.br/">UOL</a> e <a href="https://www.ibm.com/br-pt">IBM</a>. Neles, o foco principal era entregar uma experiência
-            imersiva e impactante para o usuário final sem descuidar do desempenho e da acessibilidade da página.</p>
-        <p>Também já fui contratado para transformar grandes portais, como Terra e G1, em páginas responsivas. Fui responsável por renovar o layout, reorganizar o conteúdo e re-escrever o código de forma mais reaproveitável.</p>
+            <p>Também não trabalho com prazos fechados: <strong>qualidade é importante demais para ser sacrificada</strong>.</p>
 
-        <h2>Comunidade</h2>
+            <h2 class="subtitulo-texto">Experiência</h2>
 
-        <p>Procuro repassar meu conhecimento para a comunidade. Para isso, já dei diversas palestras e mantenho <a href="BLOG.html">um blog</a>.</p>
-      </div>
+            <blockquote class="citacao-bio">
+                <p>João domina as tecnologias como ninguém. Eu apresentava um problema, ele tinha na ponta da língua a solução mais adequada com as tecnologias mais recentes.</p>
+                <cite>Manoel Santos, Petrobrás</cite>
+            </blockquote>
+
+            <p>Já desenvolvi projetos para grandes empresas como <a href="http://www.bmw.com">BMW</a>, <a href="http://www.uol.com.br">UOL</a> e <a href="http://www.ibm.com.br">IBM</a>. Neles, o foco principal era entregar uma experiência imersiva e impactante
+                para o usuário final sem descuidar do desempenho e da acessibilidade da página.</p>
+
+            <p>Também já fui contratado para transformar grandes portais, como <a href="http://www.terra.com.br">Terra</a> e <a href="http://www.g1.globo.com">G1</a>, em páginas responsivas. Fui responsável por renovar o layout, reorganizar o conteúdo e
+                re-escrever o código de forma mais reaproveitável.</p>
+
+            <h2 class="subtitulo-texto">Comunidade</h2>
+
+            <p>Procuro repassar meu conhecimento para a comunidade. Para isso, já dei <a href="portfolio.html">diversas palestras</a> e mantenho um <a href="blog.html">blog</a>.</p>
+        </div>
     </main>
-    <img src="imgs/eu.jpg" alt="Foto de jooao da silva">
-    <nav>
-        <h1>Joao da Silva</h1>
-        <ul class="horizontal">
-            <li><a href="">Home</a></li>
-            <li><a href="">Portifolio</a></li>
-            <li><a href="">Sobre mim</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contato</a></li>
+    <img src="eu.jpg" alt="Foto de João da Silva" class="minha-foto">
+    <aside class="navegacao-site">
+        <h1>João da Silva</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="bio.html">Sobre mim</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <ul class="icones-redes-sociais">
+            <li>
+                <a href="https://github.com/joaodasilva">
+                    <img src="github.png" alt="Github">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/joaodasilva">
+                    <img src="twitter.png" alt="Twitter">
+                </a>
+            </li>
+            <li>
+                <a href="https://br.linkedin.com/pub/joão-da-silva/32/4/508">
+                    <img src="linkedin.png" alt="LinkedIn">
+                </a>
+            </li>
         </ul>
-    </nav>
-    <footer>
-        &copy; Joao Da Silva 2019
+    </aside>
+    <footer class="rodape-pagina">
+        &copy; João da Silva 2019
     </footer>
-
 </body>
 
 </html>
@@ -76,7 +99,8 @@
     <title>Blog - João da Silva</title>
     <meta charset="utf-8">
     <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="BioCSS.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
 </head>
@@ -84,36 +108,37 @@
 <body>
     <main>
         <h1>Blog</h1>
+        <div>
+            <article>
+                <h2>O essencial de design responsivo</h2>
+                <time datetime="2014-07-01">01 de julho de 2014</time>
 
-        <article>
-            <h2>O essencial de design responsivo</h2>
-            <time datetime="2014-07-01">01 de julho de 2014</time>
+                <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis. Mas como começar?</p>
 
-            <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis. Mas como começar?</p>
+                <a href="#" class="leia-mais">Leia mais</a>
+                <footer>Tags: <a href="#">design responsivo</a>, <a href="#">mobile</a>, <a href="#">css</a></footer>
+            </article>
 
-            <a href="#">Leia mais</a>
-            <footer>Tags: <a href="#">design responsivo</a>, <a href="#">mobile</a>, <a href="#">css</a></footer>
-        </article>
+            <article>
+                <h2>Por que fazer páginas acessíveis?</h2>
+                <time datetime="2014-06-15">15 de junho de 2014</time>
 
-        <article>
-            <h2>Por que fazer páginas acessíveis?</h2>
-            <time datetime="2014-06-15">15 de junho de 2014</time>
+                <p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas, inclusive da própria W3C. Mas vale a pena investir nisso?</p>
 
-            <p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas, inclusive da própria W3C. Mas vale a pena investir nisso?</p>
+                <a href="#" class="leia-mais">Leia mais</a>
+                <footer>Tags: <a href="#">acessibilidade</a>, <a href="#">boas práticas</a></footer>
+            </article>
 
-            <a href="#">Leia mais</a>
-            <footer>Tags: <a href="#">acessibilidade</a>, <a href="#">boas práticas</a></footer>
-        </article>
+            <article>
+                <h2>JavaScript não obstrusivo</h2>
+                <time datetime="2014-05-28">28 de maio de 2014</time>
 
-        <article>
-            <h2>JavaScript não obstrusivo</h2>
-            <time datetime="2014-05-28">28 de maio de 2014</time>
+                <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
 
-            <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
-
-            <a href="#">Leia mais</a>
-            <footer>Tags: <a href="#">javascript</a>, <a href="#">boas práticas</a></footer>
-        </article>
+                <a href="#" class="leia-mais">Leia mais</a>
+                <footer>Tags: <a href="#">javascript</a>, <a href="#">boas práticas</a></footer>
+            </article>
+        </div>
     </main>
     <img src="eu.jpg" alt="Foto de João da Silva">
     <aside>
@@ -134,46 +159,111 @@
 </body>
 
 </html>
+
+
 ############################BLOG
 
-############################BIO CSS
+############################SITE CSS
 body {
-    background-color: #f2fffc;
-    font-family: "Crinsom text", serif;
-    font-size: 20px
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
     line-height: 1.5;
 }
 
-main h1 {
-    background-color: #851944;
-    color: #FFF;
-    text-align: center;
-    font-family: "Open sans codensed", sans-serif;
-    font-size: 60px;
-    padding: 20px;
-    margin: 0;
-    border-bottom: 10px solid black;
+h1,
+h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-h2 {
-    font-size: 40px;
-    font-family: "Open sans codensed", sans-serif;
+.titulo-principal {
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    border-bottom: 10px solid black;
+    font-size: 60px;
 }
 
 p {
     text-align: justify;
+    margin: 20px 0;
 }
 
-blockquote {
-    background-color: #d3ddda;
-    padding: 16px;
+.citacao-bio {
+    background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
-    width: 250px
-    color: white
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px 40px;
 }
-main div {
+
+.navegacao-site {
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+}
+
+main a {
+    color: #851944;
+}
+
+.navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.citacao-bio,
+.navegacao-site,
+.rodape-pagina {
+    padding: 20px;
+}
+
+.container {
     width: 720px;
     margin: auto;
+    padding: 30px 0;
+}
+
+.navegacao-site h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.subtitulo-texto {
+    font-size: 30px;
+}
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+.artigo {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
 }
 
 ###########################BIO CSS
