@@ -1,0 +1,41 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+footer {
+    background: url(img/bg.jpg);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.copyright {
+    color: honeydew;
+    margin: 20px 0;
+    font-size: 20px;
+}
