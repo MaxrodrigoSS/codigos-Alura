@@ -12,5 +12,3 @@ contador = contador + 1
 const nomeCompleto = primeiroNome + sobrenome;
 console.log(nomeCompleto);
 nomeCompleto = 2;
-
-var nome = max
