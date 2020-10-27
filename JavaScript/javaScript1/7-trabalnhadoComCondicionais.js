@@ -7,7 +7,7 @@ const idadeDoComprador = 15;
 console.log("Destinos diponiveis.");
 console.log(listaDeLugares);
 
-if (idadeDoComprador >= 18 || estaAcompanhado) {
+if (idadeDoComprador >= 18 || estaAcompanhado == true) {
     console.log("Boa Viagem.");
 } else {
     console.log("Comprador menor de idade, não podemos vender.");
