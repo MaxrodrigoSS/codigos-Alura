@@ -21,7 +21,7 @@ class HttpService {
             headers: { 'Content-Type': 'application/json' },
             method: 'post',
             body: JSON.stringify(dado)
-        })
+        });
 
     }
 }
