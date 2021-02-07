@@ -1,0 +1,2 @@
+Nessas pastas fizemos algumas atividaes relacioanadas, que estao nas suas respectivas pastas. Porem isso nao abrange toda a Documentação do codigo ou do framework, se possuimos alguma duvida depois ir no site ou pesquisar na net.
+Coloquei tbm uns comentarios pelo codigo para tirar um duvida nossa no futuro. 

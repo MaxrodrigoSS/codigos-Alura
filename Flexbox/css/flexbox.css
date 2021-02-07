@@ -1,3 +1,5 @@
+/*O Flex e usado para passar responsividade e mexer no */
+
 .cabecalhoPrincipal .container {
     display: flex;
     align-items: center;
